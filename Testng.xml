@@ -4,7 +4,7 @@
 <suite name="Test Suite">
   <test thread-count="5" name="Test">
   
- <parameter name = "Email" value = "srir8529"></parameter>
+ <parameter name = "Email" value = "prem9432"></parameter>
 <parameter name = "Pass" value = "08521511"></parameter>
 
   
@@ -16,8 +16,8 @@
 
 
 <!-- 
-prav8483 | vima0953 | swet1121 | mari9100 | jose6440 | lawr7800 | ebin4321 | ruba6221 | nels2853 | srir8529 |
-16182062 | 09531138 | 69282114 | 68257266 | 23755165 | 62521470 | 29591170 | 07951663 | 58221060 | 08521511 |
+prav8483 | vima0953 | swet1121 | mari9100 | jose6440 | lawr7800 | ebin4321 | ruba6221 | nels2853 | srir8529 |prem9432
+16182062 | 09531138 | 69282114 | 68257266 | 23755165 | 62521470 | 29591170 | 07951663 | 58221060 | 08521511 |94321005
 
 
  -->

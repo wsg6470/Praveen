@@ -36,14 +36,14 @@ return data ;
 
 
 @Test(dataProvider = "login Data")
-	public void login(String fName, String fValue) throws InterruptedException{
+	public void login(String fName, String fValue){
 		System.setProperty("webdriver.chrome.driver", 
 				"C:\\Users\\shano\\eclipse-workspace\\Captcha\\drivers\\chromedriver.exe");
 		
 			driver = new ChromeDriver();
 			
 			driver.get("https://www.onlinedataentryjob.com/form-filling-work.php");
-			driver.manage().window().maximize();
+			
 			
 	WebElement loginOpt = driver.findElement(By.xpath("//strong[text()='Login']"));
 	loginOpt.click();
@@ -60,9 +60,13 @@ return data ;
 	WebElement earnMoney =  driver.findElement(By.xpath("//strong[text()='Earn Money']"));
 	earnMoney.click();
 	
-	driver.navigate().refresh();
+	WebElement balance = driver.findElement(By.xpath("//*[@id=\"contentpanel\"]/div[2]/div/div[2]/font"));
+	String s = balance.getText();
+	System.out.println(fName+" : "+s);
 	
 	
+	
+	driver.quit();
 	
 	
 	

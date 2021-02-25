@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.captcha.test.Earnings">
+      <class name="org.captcha.test.Captcha">
         <methods>
-          <include name="login" invocation-numbers="4"/>
+          <include name="login" invocation-numbers="9"/>
         </methods>
-      </class> <!-- org.captcha.test.Earnings -->
+      </class> <!-- org.captcha.test.Captcha -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
