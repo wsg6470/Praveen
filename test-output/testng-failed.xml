@@ -5,7 +5,7 @@
     <classes>
       <class name="org.captcha.test.Captcha">
         <methods>
-          <include name="login" invocation-numbers="9"/>
+          <include name="login" invocation-numbers="0"/>
         </methods>
       </class> <!-- org.captcha.test.Captcha -->
     </classes>

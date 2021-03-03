@@ -1,173 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-24T12:32:29Z" name="Default suite" finished-at="2021-02-24T12:35:30Z" duration-ms="180966">
+  <suite started-at="2021-03-02T12:57:01Z" name="Default suite" finished-at="2021-03-02T12:57:33Z" duration-ms="32684">
     <groups>
     </groups>
-    <test started-at="2021-02-24T12:32:29Z" name="Default test" finished-at="2021-02-24T12:35:30Z" duration-ms="180966">
-      <class name="org.captcha.test.Earnings">
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:32:29Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:32:51Z" duration-ms="22633" status="PASS">
+    <test started-at="2021-03-02T12:57:01Z" name="Default test" finished-at="2021-03-02T12:57:33Z" duration-ms="32684">
+      <class name="org.captcha.test.Captcha">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Captcha@7fc4780b]" started-at="2021-03-02T12:57:01Z" name="login" data-provider="login Data" finished-at="2021-03-02T12:57:33Z" duration-ms="32653" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[prav8483]]>
+                <![CDATA[prem9432]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[16182062]]>
+                <![CDATA[94321005]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:32:51Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:33:17Z" duration-ms="25230" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vima0953]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[09531138]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:33:17Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:33:34Z" duration-ms="17746" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[swet1121]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[69282114]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:33:34Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:33:54Z" duration-ms="19258" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mari9100]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[68257266]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:33:54Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:34:06Z" duration-ms="12120" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jose6440]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[23755165]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:34:06Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:34:22Z" duration-ms="15914" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lawr7800]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[62521470]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:34:22Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:34:45Z" duration-ms="22860" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ebin4321]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[29591170]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:34:45Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:34:58Z" duration-ms="13911" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ruba6221]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[07951663]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:34:59Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:35:15Z" duration-ms="16817" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nels2853]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[58221060]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.captcha.test.Earnings@1f81aa00]" started-at="2021-02-24T12:35:15Z" name="login" data-provider="login Data" finished-at="2021-02-24T12:35:30Z" duration-ms="14414" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[srir8529]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[08521511]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- org.captcha.test.Earnings -->
+      </class> <!-- org.captcha.test.Captcha -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
